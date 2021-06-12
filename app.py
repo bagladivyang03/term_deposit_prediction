@@ -26,7 +26,7 @@ Instructions for uploading CSV file
 st.sidebar.header('User Input Features')
 
 st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/penguins_example.csv)
+[Example CSV input file](https://github.com/bagladivyang03/term_deposit_prediction/blob/main/example_input_csv.csv)
 """)
 
 uploaded_file = st.sidebar.file_uploader(
