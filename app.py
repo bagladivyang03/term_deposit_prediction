@@ -73,7 +73,7 @@ else:
 
 rows_of_input_df = input_df.shape[0]
 
-client_raw_data = pd.read_csv('https://raw.githubusercontent.com/bagladivyang03/term_deposit_prediction/main/term_deposit_cleaned.csv?token=ANYVWH5TDT3GTDJEXU5JO4LAZXGZK')
+client_raw_data = pd.read_csv('https://raw.githubusercontent.com/bagladivyang03/term_deposit_prediction/master/term_deposit_cleaned.csv')
 client = client_raw_data.drop(columns=['subscribed','Unnamed: 0','balance'],axis=1)
 df = pd.concat([input_df, client],axis=0)
 
